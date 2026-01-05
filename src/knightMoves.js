@@ -53,3 +53,17 @@ function knightMoves(start, end) {
 
   return []; // No path found (shouldn't happen on valid board)
 }
+
+/**
+ * Pretty prints the knight moves result
+ * @param {Array} start - Starting position
+ * @param {Array} end - Ending position
+ */
+function printKnightMoves(start, end) {
+  const path = knightMoves(start, end);
+  console.log(`\n> knightMoves([${start}],[${end}])`);
+  console.log(`=> You made it in ${path.length - 1} moves! Here's your path:`);
+  path.forEach((pos) => console.log(`  [${pos}]`));
+}
+
+module.exports = { knightMoves, printKnightMoves };
