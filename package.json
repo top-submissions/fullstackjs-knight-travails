@@ -1,18 +1,34 @@
 {
   "name": "fullstackjs-knight-travails",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A JavaScript implementation of the classic chess knight pathfinding problem using Breadth-First Search algorithm. Part of The Odin Project - Full Stack JavaScript curriculum.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/top-submissions/fullstackjs-knight-travails.git"
   },
-  "keywords": [],
+  "keywords": [
+    "knights-travails",
+    "breadth-first-search",
+    "bfs",
+    "graph-traversal",
+    "pathfinding",
+    "shortest-path",
+    "chess-algorithm",
+    "the-odin-project",
+    "javascript",
+    "algorithms",
+    "data-structures",
+    "computer-science",
+    "graph-theory",
+    "knight-moves",
+    "chessboard"
+  ],
   "author": "matimotthetimoters",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/top-submissions/fullstackjs-knight-travails/issues"
